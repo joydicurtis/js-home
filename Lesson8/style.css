@@ -1,0 +1,48 @@
+body {
+    position: relative;
+    background: url("bg.jpg") no-repeat;
+    background-size: cover;
+}
+.david {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: url("david.png") no-repeat;
+    background-size: contain;
+    margin-bottom: 100px;
+    z-index: 10;
+}
+.dolphins {
+    position: absolute;
+    left: 210px;
+    width: 200px;
+    height: 200px;
+    background: url("dolphins.png") no-repeat;
+    background-size: contain;
+    margin-bottom: 100px;
+    z-index: 10;
+}
+.pc {
+    position: absolute;
+    left: 420px;
+    width: 200px;
+    height: 200px;
+    background: url("pc.png") no-repeat;
+    background-size: contain;
+    margin-bottom: 100px;
+    z-index: 10;
+}
+.blackhole {
+    position: absolute;
+    top: 100px;
+    right: 50px;;
+    width: 400px;
+    height: 400px;
+    background: black;
+    background: url("hole.png") no-repeat;
+    background-size: cover;
+}
+.insidehole {
+    transform: skew(-.312rad);
+    transition: all .3s ease-in-out;
+}
